@@ -33,5 +33,5 @@ CREATE TABLE estadistica (
 
 DROP TABLE IF EXISTS errores;
 CREATE TABLE errores (
-	registros CHAR(30)
+	registros TEXT(500)
 );
