@@ -1,10 +1,7 @@
 import pysftp  # Para establecer conexiones via sftp
 import pandas as pd  # Para manipular archivos csv
 
-# FIXME BORRAR!
-USER = 'lappy'
-SERVER = '192.168.100.19'
-PASS = 'gc'
+
 
 def get_sftp_conn():
     # Creamos una conexion hacia el servidor

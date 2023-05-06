@@ -14,11 +14,7 @@ import extract
 import transform
 import validate
 
-# FIXME BORRAR!
-USER = 'lappy'
-SERVER = '192.168.100.19'
-PASS = 'gc'
-DATABASE = 'VISITASWEB'
+
 
 # Conexion a la DB y Carga de info
 def cargar_tablas(archivo_registro):
