@@ -1,6 +1,10 @@
 import pysftp  # Para establecer conexiones via sftp
 import pandas as pd  # Para manipular archivos csv
 
+# FIXME BORRAR!
+USER = 'user'
+SERVER = 'localhost'
+PASS = 'paassword'
 
 
 def get_sftp_conn():
@@ -13,4 +17,3 @@ def get_sftp_conn():
                              username=USER, password=PASS, cnopts=cnopts)
 
     return sftp
-
